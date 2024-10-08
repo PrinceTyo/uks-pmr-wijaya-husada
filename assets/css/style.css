@@ -235,7 +235,37 @@ nav ul li a {
 
 
 /* FOOTER */
+* {
+    padding: 0;
+    margin: 0;
+}
 
+div {
+    background-color: #4CAF50;
+}
+    
+body {
+    font: 16px/1,6 inherit;
+    color: #e0f0e0;
+}
 
+.footer {
+    margin-top: 30px;
+    margin-left: 60px;
+}
 
+.footer2 {
+    margin-top: 30px;
+    margin-left: -270px;
+}
 
+.footer ul {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.line {
+    width: 95%;
+    margin-left: 3%;
+    color: black;
+}
