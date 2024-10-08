@@ -56,9 +56,47 @@
 
 
 /* INDEX/LANDING PAGE */
+#con-trias {
+    width: 200vh;
+}
 
+#icon-trias {
+    max-width: 10vh;
+    height: 5vh;
+}
 
+#first-infografis {
+    margin-left: -30vh;
+    margin-top: -10vh;
+}
 
+#second-infografis {
+    margin-left: -15vh;
+    margin-top: -5vh;
+}
+
+#third-infografis {
+    margin-top: 10vh;
+    margin-left: -23vh;
+}
+
+#con-first-infografis {
+    margin-bottom: 30vh;
+}
+
+#con-img-second-info {
+    margin-top: 15vh;
+
+}
+
+#header-keg {
+    margin-top: 20vh;
+    color: #ffffff;
+}
+
+.gabut {
+    margin: 20px;
+}
 
 
 
