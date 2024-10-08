@@ -1,5 +1,8 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
 
-/* NAVBAR */
 .nav-uks {
     background-color: #47B66C;
     padding: 10px 0;
@@ -48,6 +51,8 @@
 
 .wrapper ul li a:hover {
     color: black;
+    border-bottom: solid 0.1rem black;
+    transition-delay: 3s ease-in ease-out; 
 }
 
 
@@ -89,11 +94,12 @@
 
 /* CONTACT US */
 header {
-    background-color: #e0f0e0;
+    background-color: #4CAF50;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 .logo img {
@@ -116,6 +122,7 @@ nav ul {
     margin: 0;
     gap: 100px;
     padding: 0;
+    transition-delay: 3s ease-in ease-out;
 }
 
 nav ul li {
@@ -138,9 +145,19 @@ nav ul li a {
     justify-content: space-between;
     padding: 50px;
     background-color: #fff;
-    margin: 20px;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: 120px;
     border: 1px solid #ddd;
-    margin-top: 90px;
+    margin-top: 30px;
+}
+
+.contact {
+    font-weight: 800;
+}
+
+.info {
+    font-weight: 900;
 }
 
 .contact-form {
@@ -184,7 +201,7 @@ nav ul li a {
 
 .contact-info h3 {
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .contact-info p {
@@ -196,6 +213,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+.send {
+    border-radius: 15px;
+    width: 100%;
+}
 
 
 
