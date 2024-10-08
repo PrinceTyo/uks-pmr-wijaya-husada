@@ -218,7 +218,7 @@ body {
 
 .footer {
     margin-top: 30px;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 .footer2 {
@@ -228,11 +228,27 @@ body {
 
 .footer ul {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
+
 .line {
-    width: 95%;
-    margin-left: 3%;
+    width: 96%;
+    margin-left: 2%;
     color: black;
+}
+
+
+.copyright {
+    margin-top: -10px;
+    margin-left: 25px;
+}
+
+.contact {
+    height: 65px;
+    padding: 0;
+}
+
+#about-uks ul{
+    padding: 0;
 }
