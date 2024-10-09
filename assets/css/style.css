@@ -70,27 +70,20 @@ span {
     height: 5vh;
 }
 
-#first-infografis {
-    margin-left: -30vh;
-    margin-top: -10vh;
+#img-infografis {
+    margin-top: 5px;
+    width: 30%;
+    height: 20vh;
+    object-fit: cover;
+    transition: all .2s ease-in-out;
 }
 
-#second-infografis {
-    margin-left: -15vh;
-    margin-top: -5vh;
-}
-
-#third-infografis {
-    margin-top: 10vh;
-    margin-left: -23vh;
-}
-
-#con-first-infografis {
-    margin-bottom: 30vh;
+#img-infografis:hover {
+    transform: scale(1.1);
 }
 
 #con-img-second-info {
-    margin-top: 15vh;
+    margin-top: 10vh;
 
 }
 
@@ -118,8 +111,29 @@ span {
 }
 
 .end {
-    clip-path: polygon(
-    100% 0, 100% 34%, 100% 59%, 87% 74%, 68% 85%, 32% 85%, 15% 75%, 0 60%, 0% 35%, 0 0);
+    height: 150vh;
+    clip-path: polygon(100% 0, 100% 34%, 100% 59%, 87% 74%, 68% 85%, 32% 85%, 15% 75%, 0 60%, 0% 35%, 0 0);
+    background-color: #47B66C;
+}
+
+#con-call-center {
+    margin-top: -50vh;
+}
+
+#row-call {
+    box-shadow: 2px 3px 5px 1px rgba(201,194,194,0.75);
+    -webkit-box-shadow: 2px 3px 5px 1px rgba(201,194,194,0.75);
+    -moz-box-shadow: 2px 3px 5px 1px rgba(201,194,194,0.75);
+}
+
+.img-call {
+    margin-top: 15px;
+    width: 30%;
+    margin-left: 5vh;
+}
+
+#col-call {
+   max-width: 25%;
 }
 
 
@@ -298,12 +312,18 @@ footer {
 
 .footer2 {
     margin-top: 30px;
-    margin-left: -270px;
+    margin-left: -200px;
 }
 
 .footer ul {
     list-style: none;
     margin-right: 60px;
+}
+
+.footer2 ul {
+    margin-left: -15px;
+    list-style: none;
+    padding: 0;
 }
 
 
@@ -313,13 +333,13 @@ footer {
     color: black;
 }
 
-
 .copyright {
     margin-top: -10px;
     margin-left: 25px;
 }
 
 .contact-footer {
+    margin-top: 30px;
     height: 65px;
     padding: 0;
 }
