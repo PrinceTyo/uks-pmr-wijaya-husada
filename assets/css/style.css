@@ -91,6 +91,57 @@ span {
 
 
 /* INDEX/LANDING PAGE */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #47B66C;
+    padding: 10px 20px;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 10vh;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-left: -20px;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #0501C8;
+    border-radius: 4px;
+}
+
+#col-first-nav {
+    margin-top: 20vh;
+    margin-left: 10vh;
+}
+
+#header-text {
+    background-color: #0501C8;
+    width: 35%;
+}
+
+span {
+    color: #0501C8;
+}
+
 #con-trias {
     width: 200vh;
 }
@@ -173,12 +224,109 @@ span {
    max-width: 25%;
 }
 
+footer {
+    margin-top: 20vh;
+    background-color: #4CAF50;
+}
+    
+.footer {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.footer2 {
+    margin-top: 30px;
+    margin-left: -200px;
+}
+
+.footer ul {
+    list-style: none;
+    margin-right: 60px;
+}
+
+.footer2 ul {
+    margin-left: -15px;
+    list-style: none;
+    padding: 0;
+}
+
+
+.line {
+    width: 96%;
+    margin-left: 2%;
+    color: black;
+}
+
+.copyright {
+    margin-top: -10px;
+    margin-left: 25px;
+}
+
+.contact-footer {
+    margin-top: 30px;
+    height: 65px;
+    padding: 0;
+}
+
+#about-uks ul{
+    padding: 0;
+}
 
 
 
 
 
 /* GALLERY */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #47B66C;
+    padding: 10px 20px;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 10vh;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-left: -20px;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #0501C8;
+    border-radius: 4px;
+}
+
+#col-first-nav {
+    margin-top: 20vh;
+    margin-left: 10vh;
+}
+
+#header-text {
+    background-color: #0501C8;
+    width: 35%;
+}
+
+span {
+    color: #0501C8;
+}
 
 .photo-grid-item img {
     width: 100%;
@@ -195,6 +343,51 @@ span {
     max-width: 400px;
     width: 100%;
 }
+footer {
+    background-color: #4CAF50;
+}
+    
+.footer {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.footer2 {
+    margin-top: 30px;
+    margin-left: -200px;
+}
+
+.footer ul {
+    list-style: none;
+    margin-right: 60px;
+}
+
+.footer2 ul {
+    margin-left: -15px;
+    list-style: none;
+    padding: 0;
+}
+
+.line {
+    width: 96%;
+    margin-left: 2%;
+    color: black;
+}
+
+.copyright {
+    margin-top: -10px;
+    margin-left: 25px;
+}
+
+.contact-footer {
+    margin-top: 30px;
+    height: 65px;
+    padding: 0;
+}
+
+#about-uks ul{
+    padding: 0;
+}
 
 
 
@@ -202,7 +395,7 @@ span {
 
 
 
-/* DAFTAR OBAT */
+/* DAFTAR OBAT */`
 
 
 
@@ -211,6 +404,7 @@ span {
 
 
 /* DETAIL OBAT */
+
 
 
 
