@@ -75,11 +75,17 @@ span {
     width: 30%;
     height: 20vh;
     object-fit: cover;
+    filter: grayscale(100%);
     transition: all .2s ease-in-out;
 }
 
 #img-infografis:hover {
     transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.line-infografis {
+    width: 30%;
 }
 
 #con-img-second-info {
@@ -92,12 +98,12 @@ span {
     color: #ffffff;
 }
 
-#header-landing {
-    background-color: #ffffff;
+#img-keg {
+    width: 70%;
 }
 
-.gabut {
-    margin: 20px;
+#header-landing {
+    background-color: #ffffff;
 }
 
 #con-about {
@@ -142,6 +148,22 @@ span {
 
 
 /* GALLERY */
+
+.photo-grid-item img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.photo-grid-container {
+    column-count: 5;
+    column-width: 300px;
+}
+
+.photo-grid-item {
+    margin: 0 auto 15px;
+    max-width: 400px;
+    width: 100%;
+}
 
 
 
