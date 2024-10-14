@@ -2,6 +2,7 @@
 html {
     height: 100%;
     overflow-y: auto;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
   
@@ -150,7 +151,7 @@ span {
 #img-infografis {
     margin-top: 5px;
     width: 30%;
-    height: 20vh;
+    height: 25vh;
     object-fit: cover;
     filter: grayscale(100%);
     transition: all .2s ease-in-out;
@@ -378,7 +379,8 @@ main {
     padding: 40px 20px;
     text-align: center;
     display: flex;
-    margin-right: 15%;
+    margin-right: 0;
+    margin-left: 10vh;
 }
 
 .product-detail {
